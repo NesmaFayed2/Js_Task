@@ -1,0 +1,105 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: brown;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: brown;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+h1 {
+  display: none;
+  color: brown;
+  margin-top: 10px;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  text-align: left;
+}
+
+.user-card h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.user-card p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.user-card a {
+  color: brown;
+  text-decoration: none;
+}
+
+.user-card a:hover {
+  text-decoration: underline;
+}
+
+#userContainer {
+  display: none;
+}
